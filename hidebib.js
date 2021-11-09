@@ -25,7 +25,7 @@ function togglebib(paperid)
     }
 }
 
-function toggleblock(blocId)
+function toggleblock(blockId)
 {
    var block = document.getElementById(blockId);
    if (block.style.display == 'none') {
