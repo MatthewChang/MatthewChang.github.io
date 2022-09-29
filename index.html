@@ -89,7 +89,26 @@
               <img src="images/laqthumb.png" style="border-style: none" width="100%" />
             </td>
             <td width="80%" valign="top">
-              <papertitle><a href="">Learning Value Functions from Undirected State-only Experience</a></papertitle><br /><b>Matthew Chang</b>, Arjun Gupta, Saurabh Gupta<br />Workshop on Offline Reinforcement Learning NeurIPS 2021 <br /> Deep Reinforcement Learning Workshop NeurIPS 2021<br />
+              <papertitle><a href="https://matthewchang.github.io/latent_action_qlearning_site/">Learning Value Functions from Undirected State-only Experience</a></papertitle><br /><b>Matthew Chang</b>, Arjun Gupta, Saurabh Gupta
+<br />International Conference on Learning Representations (ICLR), 2022<br />
+Embodied AI Workshop CVPR 2022<br/>
+              Workshop on Offline Reinforcement Learning NeurIPS 2021 <br /> Deep Reinforcement Learning Workshop NeurIPS 2021<br />
+
+              <!--details-->
+              <div class="paper" id="chang2022latent"><a href="javascript:toggleblock('chang2022latent_abs')">abstract</a> / <a href="javascript:toggleblock('chang2022latent_bib')">bibtex</a> / <a href="https://matthewchang.github.io/latent_action_qlearning_site/">webpage</a> / <a href="https://arxiv.org/abs/2204.12458">arxiv link</a> / <a href="https://www.youtube.com/watch?v=QIRHDla_oGM;">video</a>
+                <p align="justify"><i id="chang2022latent_abs">This paper tackles the problem of learning value functions from undirected state-only experience (state transitions without action labels i.e. (s,s',r) tuples). We first theoretically characterize the applicability of Q-learning in this setting. We show that tabular Q-learning in discrete Markov decision processes (MDPs) learns the same value function under any arbitrary refinement of the action space. This theoretical result motivates the design of Latent Action Q-learning or LAQ, an offline RL method that can learn effective value functions from state-only experience. Latent Action Q-learning (LAQ) learns value functions using Q-learning on discrete latent actions obtained through a latent-variable future prediction model. We show that LAQ can recover value functions that have high correlation with value functions learned using ground truth actions. Value functions learned using LAQ lead to sample efficient acquisition of goal-directed behavior, can be used with domain-specific low-level controllers, and facilitate transfer across embodiments. Our experiments in 5 environments ranging from 2D grid world to 3D visual navigation in realistic environments demonstrate the benefits of LAQ over simpler alternatives, imitation learning oracles, and competing methods. </i></p>
+                <bibtext xml:space="preserve" id="chang2022latent_bib">@inproceedings{chang2022learning,<br/>
+                author = "Chang, Matthew and Gupta, Arjun and Gupta, Saurabh",<br/>
+                title = "Learning Value Functions from Undirected State-only Experience",<br/>
+                booktitle = "International Conference on Learning Representations",<br/>
+                year = "2022"<br/>
+}</bibtext>
+              </div>
+              <script language="JavaScript">
+                hideblock('chang2022latent_bib');
+                hideblock('chang2022latent_abs');
+              </script>
+              <!--end details-->
             </td>
           </tr>
           <br />
