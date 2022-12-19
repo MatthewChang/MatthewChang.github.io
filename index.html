@@ -82,15 +82,50 @@
         <heading>Publications</heading>
         <br />
         <br />
-        <subheading>2021</subheading>
+        <subheading>2022</subheading>
         <table cellpadding="10" width="100%" align="center" border="0">
+        <tr>
+            <td width="20%" valign="top">
+              <img src="images/awda_thumb.png" style="border-style: none" width="100%" />
+            </td>
+            <td width="80%" valign="top">
+              <papertitle><a href="https://matthewchang.github.io/awda_site/">One-shot Visual Imitation via Attributed Waypoints and Demonstration Augmentation</a></papertitle><br /><b>Matthew Chang</b>, Saurabh Gupta
+<br /> In Submission ICRA 2023
+<br /> Deep Reinforcement Learning Workshop NeurIPS 2022<br />
+
+              <!--details-->
+              <div class="paper" id="chang2022latent"><a href="javascript:toggleblock('chang2022one_abs')">abstract</a> / 
+                  <!--<a href="javascript:toggleblock('chang2022one_bib')">bibtex</a> / -->
+                  <a href="https://matthewchang.github.io/awda_site/">webpage</a> / 
+                  <a href="https://openreview.net/pdf?id=0sasjKzmzk">paper</a> / 
+                  <a href="https://youtu.be/iJnwT4tT6bg">video</a>
+                <p align="justify"><i id="chang2022one_abs">
+In this paper, we analyze the behavior of existing techniques and design new solutions for the problem of one-shot visual imitation. In this setting, an agent must solve a novel instance of a novel task given just a single visual demonstration. Our analysis reveals that current methods fall short because of three errors: the DAgger problem arising from purely offline training, last centimeter errors in interacting with objects, and mis-fitting to the task context rather than to the actual task.  This motivates the design of our modular approach where we a) separate out task inference (what to do) from task execution (how to do it), and b) develop data augmentation and generation techniques to mitigate mis-fitting.  The former allows us to leverage hand-crafted motor primitives for task execution which side-steps the DAgger problem and last centimeter errors, while the latter gets the model to focus on the task rather than the task context. Our model gets 100% and 48% success rates on two recent benchmarks, improving upon the current state-of-the-art by absolute 90% and 20% respectively. 
+</i></p>
+                <bibtext xml:space="preserve" id="chang2022one_bib">@inproceedings{chang2022learning,<br/>
+                author = "Chang, Matthew and Gupta, Arjun and Gupta, Saurabh",<br/>
+                title = "Learning Value Functions from Undirected State-only Experience",<br/>
+                booktitle = "International Conference on Learning Representations",<br/>
+                year = "2022"<br/>
+}</bibtext>
+              </div>
+              <script language="JavaScript">
+                hideblock('chang2022one_bib');
+                hideblock('chang2022one_abs');
+              </script>
+              <!--end details-->
+            </td>
+          </tr>
+        </table>
+        <subheading>2021</subheading>
+  <table cellpadding="10" width="100%" align="center" border="0">
           <tr>
             <td width="20%" valign="top">
               <img src="images/laqthumb.png" style="border-style: none" width="100%" />
             </td>
             <td width="80%" valign="top">
               <papertitle><a href="https://matthewchang.github.io/latent_action_qlearning_site/">Learning Value Functions from Undirected State-only Experience</a></papertitle><br /><b>Matthew Chang</b>, Arjun Gupta, Saurabh Gupta
-<br />International Conference on Learning Representations (ICLR), 2022<br />
+<br />International Conference on Learning Representations (ICLR) 2022<br />
 Embodied AI Workshop CVPR 2022<br/>
               Workshop on Offline Reinforcement Learning NeurIPS 2021 <br /> Deep Reinforcement Learning Workshop NeurIPS 2021<br />
 
@@ -122,7 +157,7 @@ Embodied AI Workshop CVPR 2022<br/>
         <img src="images/chang2020semantic.jpg" style="border-style: none" width="100%" />
       </td>
       <td width="80%" valign="top">
-        <papertitle><a href="https://arxiv.org/pdf/2006.10034.pdf">Semantic Visual Navigation by Watching YouTube Videos</a></papertitle><br /><b>Matthew Chang</b>, Arjun Gupta, Saurabh Gupta<br />Neural Information Processing Systems (NeurIPS), 2020<br />
+        <papertitle><a href="https://arxiv.org/pdf/2006.10034.pdf">Semantic Visual Navigation by Watching YouTube Videos</a></papertitle><br /><b>Matthew Chang</b>, Arjun Gupta, Saurabh Gupta<br />Neural Information Processing Systems (NeurIPS) 2020<br />
         <div class="paper" id="chang2020semantic"><a href="javascript:toggleblock('chang2020semantic_abs')">abstract</a> / <a href="javascript:toggleblock('chang2020semantic_bib')">bibtex</a> / <a href="https://matthewchang.github.io/value-learning-from-videos/">webpage</a> / <a href="https://arxiv.org/abs/2006.10034">arxiv link</a> / <a href="https://www.youtube.com/watch?v=o8j4Ov_oF7A&amp;">video</a>
           <p align="justify"><i id="chang2020semantic_abs">Semantic cues and statistical regularities in real-world environment layouts can improve efficiency for navigation in novel environments. This paper learns and leverages such semantic cues for navigating to objects of interest in novel environments, by simply watching YouTube videos. This is challenging because YouTube videos do not come with labels for actions or goals, and may not even showcase optimal behavior. Our method tackles these challenges through the use of Q-learning on pseudo-labeled transition quadruples (image, action, next image, reward). We show that such off-policy Q-learning from passive data is able to learn meaningful semantic cues for navigation. These cues, when used in a hierarchical navigation policy, lead to improved efficiency at the ObjectGoal task in visually realistic simulations. We observe a relative improvement of 15-83% over end-to-end RL, behavior cloning, and classical methods, while using minimal direct interaction.</i></p>
           <bibtext xml:space="preserve" id="chang2020semantic_bib">@inproceedings{chang2020semantic,<br /> author = "Chang, Matthew and Gupta, Arjun and Gupta, Saurabh",<br /> title = "Semantic Visual Navigation by Watching YouTube Videos",<br /> booktitle = "Advances in Neural Information Processing Systems",<br /> year = "2020"<br />}<br /></bibtext>
