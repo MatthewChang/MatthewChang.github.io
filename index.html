@@ -57,11 +57,84 @@
     </tr>
     <tr>
       <td>
-        <heading>Publications</heading>
+        <heading>Select Publications</heading>
         <br />
         <br />
-        <subheading>2023</subheading>
 <table cellpadding="10" width="100%" align="center" border="0">
+<tr>
+            <td width="20%" valign="top">
+              <img src="images/partnr.png" style="border-style: none" width="100%" />
+            </td>
+            <td width="80%" valign="top">
+              <papertitle><a href="https://aihabitat.org/partnr/">PARTNR: A Benchmark for Planning and Reasoning in Embodied Multi-agent Tasks</a></papertitle><br />
+<b>Matthew Chang</b>, Gunjan Chhablani, Alexander William Clegg, Mikael Dallaire Cote, Ruta Desai, Michal Hlavac, Vladimir Karashchuk, Jacob Krantz, Roozbeh Mottaghi, Priyam Parashar, Siddharth Patki, Ishita Prasad, Xavi Puig, Akshara Rai, Ram Ramrakhya, Daniel Tran, Joanne Truong, John Turner, Eric Undersander, Jimmy Yang
+<br /> ICLR 2025
+
+              <!--details-->
+              <div class="paper" id="chang2024partnr"><a href="javascript:toggleblock('chang2024partnr_abs')">abstract</a> /
+                  <a href="javascript:toggleblock('chang2024partnr_bib')">bibtex</a> /
+                  <a href="https://aihabitat.org/partnr/">webpage</a> /
+                  <a href="https://ai.facebook.com/research/publications/partnr-a-benchmark-for-planning-and-reasoning-in-embodied-multi-agent-tasks/">paper</a> /
+                  <a href="https://github.com/facebookresearch/partnr-planner/tree/main/">code</a>
+                <p align="justify"><i id="chang2024partnr_abs">
+We present a benchmark for Planning And Reasoning Tasks in humaN-Robot collaboration (PARTNR) designed to study human-robot coordination in household activities. PARTNR tasks exhibit characteristics of everyday tasks, such as spatial, temporal, and heterogeneous agent capability constraints. We employ a semi-automated task generation pipeline using Large Language Models (LLMs), incorporating simulation in the loop for grounding and verification. PARTNR stands as the largest benchmark of its kind, comprising 100,000 natural language tasks, spanning 60 houses and 5,819 unique objects. We analyze state-of-the-art LLMs on PARTNR tasks, across the axes of planning, perception and skill execution. The analysis reveals significant limitations in SoTA models, such as poor coordination and failures in task tracking and recovery from errors. When LLMs are paired with real humans, they require 1.5x as many steps as two humans collaborating and 1.1x more steps than a single human, underscoring the potential for improvement in these models. We further show that fine-tuning smaller LLMs with planning data can achieve performance on par with models 9 times larger, while being 8.6x faster at inference. Overall, PARTNR highlights significant challenges facing collaborative embodied agents and aims to drive research in this direction.
+                </i></p>
+                <bibtext xml:space="preserve" id="chang2024partnr_bib">
+                @inproceedings{chang2024partnr,<br/>
+      title={PARTNR: A Benchmark for Planning and Reasoning in Embodied Multi-agent Tasks}, <br/>
+      author={Matthew Chang and Gunjan Chhablani and Alexander William Clegg and Mikael Dallaire Cote and Ruta Desai and Michal Hlavac and Vladimir Karashchuk and Jacob Krantz and Roozbeh Mottaghi and Priyam Parashar and Siddharth Patki and Ishita Prasad and Xavi Puig and Akshara Rai and Ram Ramrakhya and Daniel Tran and Joanne Truong and John Turner and Eric Undersander and Jimmy Yang},<br/>
+      booktitle={International Conference on Learning Representations},<br/>
+      year={2025}<br/>
+}<br/>
+                </bibtext>
+              </div>
+              <script language="JavaScript">
+                hideblock('chang2024partnr_bib');
+                hideblock('chang2024partnr_abs');
+              </script>
+              <!--end details-->
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"><hr style="border: none; height: 1px; background-color: #ccc; margin: 10px 0;"></td>
+          </tr>
+<tr>
+            <td width="20%" valign="top">
+              <img src="images/dmd_thumb.png" style="border-style: none" width="100%" />
+            </td>
+            <td width="80%" valign="top">
+              <papertitle><a href="https://sites.google.com/view/diffusion-meets-dagger">Diffusion Meets DAgger: Supercharging Eye-in-hand Imitation Learning</a></papertitle><br />
+Xiaoyu Zhang, <b>Matthew Chang</b>, Pranav Kumar, Saurabh Gupta
+<br /> RSS 2024
+
+              <!--details-->
+              <div class="paper" id="zhang2024dmd"><a href="javascript:toggleblock('zhang2024dmd_abs')">abstract</a> /
+                  <a href="javascript:toggleblock('zhang2024dmd_bib')">bibtex</a> /
+                  <a href="https://sites.google.com/view/diffusion-meets-dagger">webpage</a> /
+                  <a href="https://arxiv.org/abs/2402.17768">paper</a> /
+                  <a href="https://github.com/ErinZhang1998/dmd_diffusion">code</a>
+                <p align="justify"><i id="zhang2024dmd_abs">
+A common failure mode for policies trained with imitation is compounding execution errors at test time. When the learned policy encounters states that are not present in the expert demonstrations, the policy fails, leading to degenerate behavior. The Dataset Aggregation, or DAgger approach to this problem simply collects more data to cover these failure states. However, in practice, this is often prohibitively expensive. In this work, we propose Diffusion Meets DAgger (DMD), a method to reap the benefits of DAgger without the cost for eye-in-hand imitation learning problems. Instead of collecting new samples to cover out-of-distribution states, DMD uses recent advances in diffusion models to synthesize these samples. This leads to robust performance from few demonstrations. We compare DMD against behavior cloning baseline across four tasks: pushing, stacking, pouring, and shirt hanging. In pushing, DMD achieves 80% success rate with as few as 8 expert demonstrations, where naive behavior cloning reaches only 20%. In stacking, DMD succeeds on average 92% of the time across 5 cups, versus 40% for BC. When pouring coffee beans, DMD transfers to another cup successfully 80% of the time. Finally, DMD attains 90% success rate for hanging shirt on a clothing rack.
+                </i></p>
+                <bibtext xml:space="preserve" id="zhang2024dmd_bib">
+                @inproceedings{zhang2024dmd,<br/>
+      title={Diffusion Meets DAgger: Supercharging Eye-in-hand Imitation Learning}, <br/>
+      author={Xiaoyu Zhang and Matthew Chang and Pranav Kumar and Saurabh Gupta},<br/>
+      booktitle={Robotics: Science and Systems},<br/>
+      year={2024}<br/>
+}<br/>
+                </bibtext>
+              </div>
+              <script language="JavaScript">
+                hideblock('zhang2024dmd_bib');
+                hideblock('zhang2024dmd_abs');
+              </script>
+              <!--end details-->
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"><hr style="border: none; height: 1px; background-color: #ccc; margin: 10px 0;"></td>
+          </tr>
 <tr>
             <td width="20%" valign="top">
               <img src="images/goat_thumb.jpg" style="border-style: none" width="100%" />
@@ -69,7 +142,7 @@
             <td width="80%" valign="top">
               <papertitle><a href="https://theophilegervet.github.io/projects/goat/">GOAT: GO to Any Thing</a></papertitle><br />
 <b>Matthew Chang*</b>, Theophile Gervet*, Mukul Khanna*, Sriram Yenamandra*, Dhruv Shah, Tiffany Min, Kavit Shah, Chris Paxton, Saurabh Gupta, Dhruv Batra, Roozbeh Mottaghi, Jitendra Malik*, Devendra Singh Chaplot*
-<br /> In submission
+<br /> RSS 2024
 
               <!--details-->
               <div class="paper" id="chang2023goat"><a href="javascript:toggleblock('chang2023goat_abs')">abstract</a> /
@@ -81,13 +154,11 @@
 In deployment scenarios such as homes and warehouses, mobile robots are expected to autonomously navigate for extended periods, seamlessly executing tasks articulated in terms that are intuitively understandable by human operators. We present GO To Any Thing (GOAT), a universal navigation system capable of tackling these requirements with three key features: a) Multimodal: it can tackle goals specified via category labels, target images, and language descriptions, b) Lifelong: it benefits from its past experience in the same environment, and c) Platform Agnostic: it can be quickly deployed on robots with different embodiments. GOAT is made possible through a modular system design and a continually augmented instance-aware semantic memory that keeps track of the appearance of objects from different viewpoints in addition to category-level semantics. This enables GOAT to distinguish between different instances of the same category to enable navigation to targets specified by images and language descriptions. In experimental comparisons spanning over 90 hours in 9 different homes consisting of 675 goals selected across 200+ different object instances, we find GOAT achieves an overall success rate of 83%, surpassing previous methods and ablations by 32% (absolute improvement). GOAT improves with experience in the environment, from a 60% success rate at the first goal to a 90% success after exploration. In addition, we demonstrate that GOAT can readily be applied to downstream tasks such as pick and place and social navigation.
                 </i></p>
                 <bibtext xml:space="preserve" id="chang2023goat_bib">
-                @misc{chang2023goat,<br/>
+                @inproceedings{chang2024goat,<br/>
       title={GOAT: GO to Any Thing}, <br/>
       author={Matthew Chang and Theophile Gervet and Mukul Khanna and Sriram Yenamandra and Dhruv Shah and So Yeon Min and Kavit Shah and Chris Paxton and Saurabh Gupta and Dhruv Batra and Roozbeh Mottaghi and Jitendra Malik and Devendra Singh Chaplot},<br/>
-      year={2023},<br/>
-      eprint={2311.06430},<br/>
-      archivePrefix={arXiv},<br/>
-      primaryClass={cs.RO}<br/>
+      booktitle={Robotics: Science and Systems},<br/>
+      year={2024}<br/>
 }<br/>
                 </bibtext>
               </div>
@@ -99,6 +170,9 @@ In deployment scenarios such as homes and warehouses, mobile robots are expected
             </td>
           </tr>
         <tr>
+          <tr>
+            <td colspan="2"><hr style="border: none; height: 1px; background-color: #ccc; margin: 10px 0;"></td>
+          </tr>
             <td width="20%" valign="top">
               <img src="images/vidm_thumb.png" style="border-style: none" width="100%" />
             </td>
@@ -128,8 +202,10 @@ In deployment scenarios such as homes and warehouses, mobile robots are expected
               </script>
               <!--end details-->
             </td>
-          </tr>       </table>
- <table cellpadding="10" width="100%" align="center" border="0">
+          </tr>
+          <tr>
+            <td colspan="2"><hr style="border: none; height: 1px; background-color: #ccc; margin: 10px 0;"></td>
+          </tr>
         <tr>
             <td width="20%" valign="top">
               <img src="images/Prakash2023ARXIV.png" style="border-style: none" width="100%" />
@@ -163,9 +239,9 @@ year = {2023}<br />
               <!--end details-->
             </td>
           </tr>
-        </table>
-        <subheading>2022</subheading>
-        <table cellpadding="10" width="100%" align="center" border="0">
+          <tr>
+            <td colspan="2"><hr style="border: none; height: 1px; background-color: #ccc; margin: 10px 0;"></td>
+          </tr>
         <tr>
             <td width="20%" valign="top">
               <img src="images/awda_thumb.png" style="border-style: none" width="100%" />
@@ -200,9 +276,9 @@ In this paper, we analyze the behavior of existing techniques and design new sol
               <!--end details-->
             </td>
           </tr>
-        </table>
-        <subheading>2021</subheading>
-  <table cellpadding="10" width="100%" align="center" border="0">
+          <tr>
+            <td colspan="2"><hr style="border: none; height: 1px; background-color: #ccc; margin: 10px 0;"></td>
+          </tr>
           <tr>
             <td width="20%" valign="top">
               <img src="images/laqthumb.png" style="border-style: none" width="100%" />
@@ -230,12 +306,9 @@ Embodied AI Workshop CVPR 2022<br/>
               <!--end details-->
             </td>
           </tr>
-          <br />
-      </td>
-    </tr>
-  </table>
-  <subheading>2020</subheading>
-  <table cellpadding="10" width="100%" align="center" border="0">
+          <tr>
+            <td colspan="2"><hr style="border: none; height: 1px; background-color: #ccc; margin: 10px 0;"></td>
+          </tr>
     <tr>
       <td width="20%" valign="top">
         <img src="images/chang2020semantic.jpg" style="border-style: none" width="100%" />
@@ -251,9 +324,6 @@ Embodied AI Workshop CVPR 2022<br/>
           hideblock('chang2020semantic_abs');
         </script>
       </td>
-    </tr>
-    <br />
-    </td>
     </tr>
   </table>
 
